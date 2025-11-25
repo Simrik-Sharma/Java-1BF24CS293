@@ -32,7 +32,7 @@ class Son extends Father {
 
         if (sonAge >= fatherAge)
             throw new WrongAge("Son's age cannot be greater than or equal to father's age");
-        else if (sonAge < 0)
+        else if (sonAge < 0 && fatherAge < 0)
             throw new WrongAge("Age cannot be negative");
     }
     void display() {
@@ -51,4 +51,5 @@ public class Main {
         }
     }
 }
+
 
