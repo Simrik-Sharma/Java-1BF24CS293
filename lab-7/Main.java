@@ -45,11 +45,11 @@ public class Main {
             Son obj = new Son();
             System.out.println("\n--- Age Details ---");
             obj.display();
-            obj.display(); 
         } catch (WrongAge e) {
             System.out.println("Exception caught: " + e.getMessage());
         }
     }
 }
+
 
 
